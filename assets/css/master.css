@@ -1,0 +1,115 @@
+body {
+    background-color: #d7d7d7;
+    color: black;
+}
+.img-debut{
+    height: 250px;
+    width: 250px;
+    border: 2px solid white;
+    border-radius: 50%;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.195), 0 -5px 10px 0 rgba(0, 0, 0, 0.195);
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.header{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0;
+        margin: 30px;
+    }
+.profil{
+    padding: 30px;
+    text-align: center;
+}
+.bull{
+    display: flex;
+    justify-content: center;
+}
+.bull div{
+    background-color: rgba(255, 0, 0, 0.253);
+    height: 4px;
+    width: 4px;
+    margin: 3px;
+    border-radius: 50%;
+}
+.portfolio{
+    margin-bottom: 28px;
+}
+h2{
+    text-align: center;
+}
+.card-portfolio{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.img-portfolio{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 20px;
+    margin-bottom: 0;
+}
+.card-portfolio > div > h4{
+    margin: 5px;
+}
+.card-portfolio > div > p{
+    margin-top: 0px;
+}
+.card-portfolio > div > input{
+    color: white;
+    border: none;
+    padding: 5px 7px;
+    border-radius: 4px;
+    background-color: #173459;
+}
+
+.bleu-fonce{
+    color: #173459;
+}
+.ombre{
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.195), 0 -5px 10px 0 rgba(0, 0, 0, 0.195);
+}
+.tech-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-skill > div{
+    margin: 10px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+.tech-skill2{
+    margin: 12px;
+    text-align: center;
+}
+.tech-skill2 > div{
+    margin: 12px;
+}
+@media screen and (max-width:750px) {
+
+    .aligner{
+        display: grid;
+        grid-template-columns: repeat(1);
+    }
+    .profil{
+        padding: 5px;
+    }   
+    .tech-skill{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+    .tech-skill > div{
+        margin: 4px;  
+    }
+}
+
